@@ -1,8 +1,9 @@
 # CMM
 CMM语言解释器-C#-WindowsPhone版本
 
-![img](./1.png){:height="50%" width="50%"}
- <img src="./1.png" style="zoom:20%" />
+![img](./1.png)
+
+<img src="./2.png" style="zoom:20%" />
 
 cmm是c的一个子集，保留字只有如下几个
 
