@@ -1,0 +1,23 @@
+﻿<UserControl x:Class="HTML5App1.cell.JYDuiHuanCell"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}" d:DesignWidth="480" Height="103.701" Foreground="White">
+
+    <Grid x:Name="LayoutRoot">
+        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="姓名：" VerticalAlignment="Top" Width="64"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,62,0,-11" TextWrapping="Wrap" Text="兑换金额：" VerticalAlignment="Top" Width="104"/>
+        <TextBlock HorizontalAlignment="Left" Margin="223,11,0,0" TextWrapping="Wrap" Text="QQ：" VerticalAlignment="Top" Width="64"/>
+        <Grid HorizontalAlignment="Left" Height="2" Margin="0,102,0,0" VerticalAlignment="Top" Width="480" Background="#FF2C00A2"/>
+        <TextBlock HorizontalAlignment="Left" Margin="79,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="139" Height="27" Text="{Binding name}"/>
+        <TextBlock HorizontalAlignment="Left" Margin="277,13,0,0" TextWrapping="Wrap" Text="{Binding qq}" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="114,62,0,0" TextWrapping="Wrap" Text="{Binding content}" VerticalAlignment="Top" Width="366" Height="35"/>
+        <TextBlock HorizontalAlignment="Left" Margin="369,32,0,0" TextWrapping="Wrap" Text="{Binding likeNumber}" VerticalAlignment="Top" Height="28" Foreground="#FFF30505"/>
+        <TextBlock HorizontalAlignment="Left" Margin="393,4,0,0" TextWrapping="Wrap" Text="羡慕" VerticalAlignment="Top" Height="28" Foreground="#FFE0EA7B"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="104" Width="480"/>
+
+    </Grid>
+</UserControl>
